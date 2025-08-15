@@ -1,0 +1,22 @@
+const AMINOACIDS = [
+  { name: "Alanine", three: "Ala", one: "A", property: "Non-polar", formula: "-CH3", svg: "assets/svg/Alanine.svg", sdf: "assets/sdf/Alanine.sdf" },
+  { name: "Arginine", three: "Arg", one: "R", property: "Positively charged", formula: "-(CH2)3-NH-C(=NH)-NH2", svg: "assets/svg/Arginine.svg", sdf: "assets/sdf/Arginine.sdf" },
+  { name: "Asparagine", three: "Asn", one: "N", property: "Polar uncharged", formula: "-CH2-CONH2", svg: "assets/svg/Asparagine.svg", sdf: "assets/sdf/Asparagine.sdf" },
+  { name: "Aspartic Acid", three: "Asp", one: "D", property: "Negatively charged", formula: "-CH2-COOH", svg: "assets/svg/Aspartic_acid.svg", sdf: "assets/sdf/Aspartic_acid.sdf" },
+  { name: "Cysteine", three: "Cys", one: "C", property: "Polar uncharged", formula: "-CH2-SH", svg: "assets/svg/Cysteine.svg", sdf: "assets/sdf/Cysteine.sdf" },
+  { name: "Glutamic Acid", three: "Glu", one: "E", property: "Negatively charged", formula: "-(CH2)2-COOH", svg: "assets/svg/Glutamic_acid.svg", sdf: "assets/sdf/Glutamic_acid.sdf" },
+  { name: "Glutamine", three: "Gln", one: "Q", property: "Polar uncharged", formula: "-(CH2)2-CONH2", svg: "assets/svg/Glutamine.svg", sdf: "assets/sdf/Glutamine.sdf" },
+  { name: "Glycine", three: "Gly", one: "G", property: "Non-polar", formula: "-H", svg: "assets/svg/Glycine.svg", sdf: "assets/sdf/Glycine.sdf" },
+  { name: "Histidine", three: "His", one: "H", property: "Positively charged", formula: "-CH2-imidazole", svg: "assets/svg/Histidine.svg", sdf: "assets/sdf/Histidine.sdf" },
+  { name: "Isoleucine", three: "Ile", one: "I", property: "Non-polar", formula: "-CH(CH3)-CH2-CH3", svg: "assets/svg/Isoleucine.svg", sdf: "assets/sdf/Isoleucine.sdf" },
+  { name: "Leucine", three: "Leu", one: "L", property: "Non-polar", formula: "-CH2-CH(CH3)2", svg: "assets/svg/Leucine.svg", sdf: "assets/sdf/Leucine.sdf" },
+  { name: "Lysine", three: "Lys", one: "K", property: "Positively charged", formula: "-(CH2)4-NH2", svg: "assets/svg/Lysine.svg", sdf: "assets/sdf/Lysine.sdf" },
+  { name: "Methionine", three: "Met", one: "M", property: "Non-polar", formula: "-CH2-CH2-S-CH3", svg: "assets/svg/Methionine.svg", sdf: "assets/sdf/Methionine.sdf" },
+  { name: "Phenylalanine", three: "Phe", one: "F", property: "Non-polar aromatic", formula: "-CH2-phenyl", svg: "assets/svg/Phenylalanine.svg", sdf: "assets/sdf/Phenylalanine.sdf" },
+  { name: "Proline", three: "Pro", one: "P", property: "Non-polar", formula: "-CH2-CH2-CH2- (pyrrolidine)", svg: "assets/svg/Proline.svg", sdf: "assets/sdf/Proline.sdf" },
+  { name: "Serine", three: "Ser", one: "S", property: "Polar uncharged", formula: "-CH2-OH", svg: "assets/svg/Serine.svg", sdf: "assets/sdf/Serine.sdf" },
+  { name: "Threonine", three: "Thr", one: "T", property: "Polar uncharged", formula: "-CH(OH)-CH3", svg: "assets/svg/Threonine.svg", sdf: "assets/sdf/Threonine.sdf" },
+  { name: "Tryptophan", three: "Trp", one: "W", property: "Non-polar aromatic", formula: "-CH2-indole", svg: "assets/svg/Tryptophan.svg", sdf: "assets/sdf/Tryptophan.sdf" },
+  { name: "Tyrosine", three: "Tyr", one: "Y", property: "Polar aromatic", formula: "-CH2-phenol", svg: "assets/svg/Tyrosine.svg", sdf: "assets/sdf/Tyrosine.sdf" },
+  { name: "Valine", three: "Val", one: "V", property: "Non-polar", formula: "-CH(CH3)2", svg: "assets/svg/Valine.svg", sdf: "assets/sdf/Valine.sdf" }
+];

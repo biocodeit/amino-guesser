@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amino Acid Guesser</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+<body>
+
+    <h1>Amino Acid Guesser</h1>
+
+    <!-- Top layout: left column (2D + formula) and right (3D) -->
+    <div class="flex-container">
+        <div class="column-left">
+            <div id="box1"></div>
+            <div id="box3"></div>
+        </div>
+        <div id="box2">
+            <div id="container-01" class="mol-container"></div>      
+
+        </div>
+    </div>
+    <script>
+
+    </script>
+    <!-- Questions Section -->
+    <div class="questions">
+        
+        <div class="question-box" id="qbox1">
+            <div class="option_header" id="opt_h1">Name</div>
+            <button class="button-88" id="NameOP1">Option 1</button>
+            <button class="button-88" id="NameOP2">Option 2</button>
+            <button class="button-88" id="NameOP3">Option 3</button>
+            <button class="button-88" id="NameOP4">Option 4</button>
+        </div>
+
+        <div class="question-box" id="qbox2">
+            <div class="option_header" id="opt_h2">3‑code</div>
+            <button class="button-88" id="ThreeOP1">Option 1</button>
+            <button class="button-88" id="ThreeOP2">Option 2</button>
+            <button class="button-88" id="ThreeOP3">Option 3</button>
+            <button class="button-88" id="ThreeOP4">Option 4</button>
+        </div>
+
+        <div class="question-box" id="qbox3">
+            <div class="option_header" id="opt_h3">1‑code</div>
+            <button class="button-88" id="OneOP1">Option 1</button>
+            <button class="button-88" id="OneOP2">Option 2</button>
+            <button class="button-88" id="OneOP3">Option 3</button>
+            <button class="button-88" id="OneOP4">Option 4</button>
+        </div>
+
+        <div class="question-box" id="qbox4">
+            <div class="option_header" id="opt_h4">Property</div>
+            <button class="button-88">Option 1</button>
+            <button class="button-88">Option 2</button>
+            <button class="button-88">Option 3</button>
+            <button class="button-88">Option 4</button>
+        </div>
+      </div>
+      <div class="next_bu">
+        <button id="next_button">next</button>
+      </div>
+<script src="aminoAcid.js"></script>    
+<script src="game.js"></script>
+</body>
+</html>
+
+
